@@ -49,3 +49,5 @@ gem "rspec", "~> 3.10"
 gem "rubocop", "~> 1.22"
 
 gem "capybara", "~> 3.35"
+
+gem "dotenv-rails", "~> 2.7"
