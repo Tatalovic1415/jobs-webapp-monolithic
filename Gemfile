@@ -57,3 +57,9 @@ gem 'factory_bot', '~> 6.2'
 gem 'rubocop-rails', '~> 2.12'
 
 gem 'rubocop-rspec', '~> 2.5'
+
+gem "simplecov", "~> 0.21.2"
+
+gem "rspec-rails", "~> 5.0"
+
+gem "factory_bot_rails", "~> 6.2"

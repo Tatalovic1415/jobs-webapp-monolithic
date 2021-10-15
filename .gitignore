@@ -30,3 +30,6 @@
 
 # Ignore environment file
 /.env
+
+# Ignore coverage report
+/public/coverage/*
