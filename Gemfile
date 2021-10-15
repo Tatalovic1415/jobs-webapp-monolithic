@@ -30,7 +30,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
 
 group :development do
@@ -42,12 +42,18 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-gem "rspec", "~> 3.10"
+gem 'rspec', '~> 3.10'
 
-gem "rubocop", "~> 1.22"
+gem 'rubocop', '~> 1.22'
 
-gem "capybara", "~> 3.35"
+gem 'capybara', '~> 3.35'
 
-gem "dotenv-rails", "~> 2.7"
+gem 'dotenv-rails', '~> 2.7'
+
+gem 'factory_bot', '~> 6.2'
+
+gem 'rubocop-rails', '~> 2.12'
+
+gem 'rubocop-rspec', '~> 2.5'
