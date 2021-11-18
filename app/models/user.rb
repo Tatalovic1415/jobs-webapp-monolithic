@@ -1,4 +1,4 @@
-class Employer < ApplicationRecord
+class User < ApplicationRecord
     has_many :job_adverts 
 
     validates :email, format: { with: URI::MailTo::EMAIL_REGEXP }
