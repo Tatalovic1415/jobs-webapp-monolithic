@@ -63,3 +63,5 @@ gem "simplecov", "~> 0.21.2"
 gem "rspec-rails", "~> 5.0"
 
 gem "factory_bot_rails", "~> 6.2"
+
+gem "bootstrap", "~> 5.1"
